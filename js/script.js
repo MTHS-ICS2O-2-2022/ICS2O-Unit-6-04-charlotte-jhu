@@ -11,7 +11,7 @@ window.onload = function () {
   const params = new URLSearchParams(document.location.search)
 
   // input
-  const radius = params.get('radius')
+  const radius = params.get('r')
 
   // process
   const volume = (4 / 3) * Math.PI * radius ** 3
