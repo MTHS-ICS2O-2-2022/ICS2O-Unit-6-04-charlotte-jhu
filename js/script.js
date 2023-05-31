@@ -19,5 +19,5 @@ window.onload = function () {
 
   // output
 document.getElementById('radius').innerHTML = dimensions
-document.getElementById('volume').innerHTML = 'Volume (V) = ' + volume + ' units³'
+document.getElementById('volume').innerHTML = 'Volume (V) = ' + volume.toFixed(2) + ' units³'
 }
